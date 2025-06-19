@@ -4,7 +4,7 @@
   "description": "A WhatsApp Bot Created By ravindu",
   "main": "ravinduofc.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name RAVINDU-MD",
+    "start": "pm2 start ravinduofc.js --deep-monitoring --attach --name RAVINDU-MD",
     "stop": "pm2 stop RAVINDU-MD",
     "restart": "pm2 restart RAVINDU-MD"
   },
